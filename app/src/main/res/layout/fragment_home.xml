@@ -50,16 +50,6 @@
             android:text="@string/desc1"
             android:padding="8dp"
             />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/subTitle"
-            android:layout_centerHorizontal="true"
-            android:id="@+id/id_bagenda"
-            android:text="Agendar cita"
-            android:background="@color/gris"
-            android:padding="8dp"/>
-    </RelativeLayout>
+            </RelativeLayout>
 
 </androidx.cardview.widget.CardView>

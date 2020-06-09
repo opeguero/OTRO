@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/promo1"
+            android:textColor="?android:textColorSecondary"
+            android:text="Promociones del mes: Compra 2 paquetes y llévate 1 gratis"
+            android:padding="8dp"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/promo1"
+            android:id="@+id/promo2"
+            android:text="Esta promoción aplica en el EdoMex y a partir de las 22:00 h"
+            android:padding="8dp"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
