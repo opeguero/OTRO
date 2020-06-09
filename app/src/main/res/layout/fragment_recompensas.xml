@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rec1"
+            android:text="Recompensa No. RC435667MMX"
+            android:padding="8dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rec1"
+            android:id="@+id/rec2"
+            android:text="Por tu preferencia te recompensamos con descuentos para el cine 2x1, elije a esa persona querida y paga las palomitas, lo demás va por nuestra cuenta"
+            android:padding="8dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rec2"
+            android:id="@+id/rec3"
+            android:text="Esta recompensa será válida hasta el año 2030 en todos los cines del país"
+            android:padding="8dp"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
