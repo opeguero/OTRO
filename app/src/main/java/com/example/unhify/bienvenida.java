@@ -1,5 +1,6 @@
 package com.example.unhify;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
@@ -21,7 +22,7 @@ import com.google.android.gms.common.api.internal.OnConnectionFailedListener;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 
-public class bienvenida extends AppCompatActivity {
+public class bienvenida extends Activity {
 
     private final int DURATION_SPLASH = 3000;
     @Override
