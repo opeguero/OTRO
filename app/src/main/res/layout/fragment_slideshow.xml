@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true">
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:id="@+id/sportsImage3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@string/img6">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/sportsImage3"
+            android:id="@+id/title3"
+            android:text="Mi Perfil"
+            android:padding="8dp"
+            android:textSize="30dp"
+            android:visibility="visible"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/newsTitle3"
+            android:layout_below="@id/sportsImage3"
+            android:textColor="?android:textColorSecondary"
+            android:text="@string/news_placeholder"
+            android:padding="8dp"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/newsTitle3"
+            android:id="@+id/subTitle3"
+            android:text="Dirección: Cerro de Nayarit S/N, casa verde"
+            android:padding="8dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subTitle3"
+            android:id="@+id/tel3"
+            android:text="Teléfono: 4564564567"
+            android:padding="8dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tel3"
+            android:id="@+id/correo3"
+            android:text="Correo electrónico: lasierra@sinfin.com"
+            android:padding="8dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/correo3"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/butperfil"
+            android:text="Actualizar"
+            android:background="@color/gris"
+            android:padding="8dp"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

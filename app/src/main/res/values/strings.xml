@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Uñify</string>
+    <string name="not_log_in">No se pudo iniciar sesión</string>
+    <string name="log_out">Salir</string>
+    <string name="revoke">Revocar</string>
+    <string name="not_close_session">No se pudo cerrar sesión</string>
+    <string name="not_revoke">No se pudo revocar el acceso</string>
+    <string name="slogan">El arte en tus uñas</string>
+    <string name="correo">servicios@unhify.com</string>
+    <string name="title_activity_inicio">Inicio</string>
+    <string name="navigation_drawer_open">Abrir el menú de navegación</string>
+    <string name="navigation_drawer_close">Cerrar el menú de navegación</string>
+    <string name="nav_header_title">Uñify</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configuración</string>
+    <string name="menu_home">Servicios</string>
+    <string name="menu_gallery">Pagos</string>
+    <string name="menu_slideshow">Perfil</string>
+    <string name="menu_promos">Promociones</string>
+    <string name="menu_recompensas">Recompensas</string>
+    <string name="menu_calendario">Calendario</string>
+    <string name="menu_ayuda">Ayuda</string>
+    <string name="title_placeholder">Title</string>
+    <string name="news_placeholder">Descripción</string>
+    <string name="sports_info_placeholder">Algo de descripción</string>
+
+    <!--string-array name="sports_titles"-->
+        <string name="tit1">Servicio Artístico</string>
+        <string name="tit2">Paquete Uñas imperdibles</string>
+        <string name="tit3">Limpieza Profunda</string>
+        <string name="tit4">Servicio veraniego</string>
+        <string name="tit5">Paquete extremo</string>
+    <!--/string-array-->
+
+    <!--string-array name="sports_info"-->
+        <string name="desc1">Este servicio incluye todo lo relacionado al manicure y pedicure con un estilo
+            artístico, ya que incorpora las piedras preciosas de África, a través de un
+            pegado a base de pegamento patentado.</string>
+        <string name="desc2">Incluye una combinación de colores y formas para hacer única la experiencia
+                y estilo; adornos llegados desde Medio Oriente que han comprobado contar
+                con la mejor fijación en color y brillo, resistentes al agua, cloro, y actividades
+                de la vida diaria.</string>
+        <string name="desc3">El objetivo de este servicio, tiene que ver con el mantenimiento que hacemos con
+                frecuencia a nuestras manos y pies, alineando tamaños, dejando las uñas en un
+                estado saludable, así como nutriendo las mismas con aceites esenciales llegados
+                directamente desde el continente australiano.</string>
+        <string name="desc4">Para que nunca sufras con tus uñas al ir a la playa, que la sal no las despinte, y
+                que puedan lucirse en toda ocasión. Para ello aplicamos un esmalte especial que
+                garantiza el brillo y salud en uñas y dedos, permaneciendo hidratadas hasta 12 horas
+                continuas.</string>
+        <string name="desc5">¿Requieres máxima dureza y resistencia en tus uñas? Si es así, este paquete es para
+                ti, ya que sin dejar de lado la combinación de colores a elegir, brida toda la protección,
+                brillo, dureza, salud a tus uñas. El tratamiento se hace a base de resinas especialmente
+                diseñadas para durar en los ambientes más extremos del planeta.</string>
+    <!--/string-array-->
+
+    <!-- string-array name="sports_images"-->
+        <string name="img1">@drawable/img_unha1</string>
+        <string name="img2">@drawable/img_unha2</string>
+        <string name="img3">@drawable/img_unha3</string>
+        <string name="img4">@drawable/img_unha4</string>
+        <string name="img5">@drawable/img_unha5</string>
+    <string name="img6">@drawable/huichol</string>
+
+    <!-- /string-array -->
+
+</resources>

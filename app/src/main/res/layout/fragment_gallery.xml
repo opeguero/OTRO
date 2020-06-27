@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tpagos"
+            android:text="Pagos realizados"
+            android:padding="8dp"
+            android:textSize="8dp"
+            android:visibility="visible"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fpago"
+            android:layout_below="@id/tpagos"
+            android:textColor="?android:textColorSecondary"
+            android:text="Día 30 de Mayo a las 21:32:04 h."
+            android:padding="8dp"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fpago"
+            android:id="@+id/pserv"
+            android:text="El pago corresponde al servicio: Paquete 1 (uñas sólidas)"
+            android:padding="8dp"
+            />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
